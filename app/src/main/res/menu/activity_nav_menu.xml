@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calendar" android:title="Calendar" android:icon="@drawable/calendar">
+        </item>
+        <item
+            android:id="@+id/nav_web" android:title="Web View" android:icon="@drawable/web">
+        </item>
+        <item
+            android:id="@+id/About" android:title="About" android:icon="@drawable/about">
+        </item>
+    </group>
+</menu>

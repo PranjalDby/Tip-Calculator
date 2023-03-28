@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".essentialactivity.CalendarActivity">
+    <com.google.android.material.card.MaterialCardView
+        android:fitsSystemWindows="true"
+        app:cardCornerRadius="20dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#964B00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CalendarView
+            android:outlineSpotShadowColor="@color/white"
+            android:focusedMonthDateColor="@color/purple_700"
+            android:backgroundTint="@color/purple_700"
+            android:backgroundTintMode="screen"
+            android:id="@+id/calendar"
+            android:selectedWeekBackgroundColor="#FF00"
+            android:fitsSystemWindows="true"
+            android:foregroundGravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

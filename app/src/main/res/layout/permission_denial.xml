@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/permission_denial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_denial"
+        android:layout_width="300dp"
+        android:layout_marginLeft="50sp"
+        android:src="@drawable/warning"
+        android:layout_height="300dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="120sp"
+        android:layout_marginVertical="440sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Allow This Permission For Better Experience"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
